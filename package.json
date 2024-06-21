@@ -1,6 +1,6 @@
 {
   "name": "@picturae/mmmagic",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "author": "Brian White <mscdex@mscdex.net>",
   "description": "An async libmagic binding for node.js for detecting content types by data inspection",
   "main": "./lib/index",
