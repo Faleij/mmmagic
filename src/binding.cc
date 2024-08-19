@@ -281,7 +281,7 @@ public:
         }
         if (fd == -1) {
           detect_req->free_error = false;
-          detect_req->error_message = "Error while opening file";
+          detect_req->error_message = strdup("Error while opening file");
           magic_close(magic);
           return;
         }
